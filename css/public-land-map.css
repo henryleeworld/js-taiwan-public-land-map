@@ -1,0 +1,27 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.ol-popup-content {
+    width: 300px;
+}
+
+td {
+    border: 1px solid black;
+    margin: 0;
+    padding: 3px;
+}
+
+#map {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 50px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}

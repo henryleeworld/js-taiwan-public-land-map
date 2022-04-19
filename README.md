@@ -11,5 +11,5 @@ $ git clone
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/w9m3iBP.gif)
+![](https://i.imgur.com/zWIWVaW.gif)
 > 內政部、財政部國有財產署及中央、地方 1458 個機關經管之公有土地，總計約 263 萬餘筆

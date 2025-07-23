@@ -22,7 +22,6 @@ var size = ol.extent.getWidth(projectionExtent) / 256;
 var resolutions = new Array(20);
 var matrixIds = new Array(20);
 for (var z = 0; z < 20; ++z) {
-    // generate resolutions and matrixIds arrays for this WMTS
     resolutions[z] = size / Math.pow(2, z);
     matrixIds[z] = z;
 }
@@ -30,7 +29,6 @@ var popup = new ol.Overlay.Popup();
 var lastFeature;
 
 /*
- * layer
  * EMAP2: 臺灣通用電子地圖透明
  * EMAP6: 臺灣通用電子地圖(不含等高線)
  * EMAP7: 臺灣通用電子地圖EN(透明)
@@ -93,7 +91,7 @@ var map = new ol.Map({
         })
     }),
     view: new ol.View({
-        center: ol.proj.fromLonLat([121, 24]),
+        center: ol.proj.fromLonLat([121.563900, 25.034030]),
         zoom: 10
     })
 });
